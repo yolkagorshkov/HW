@@ -16,7 +16,7 @@ typedef vector<vi> vvi;
 float fl_div(float n,float divisioner){return divisioner*(n/divisioner-(int)(n/divisioner));}
 
 int main(){
-    int m,n;cin>>n>>m;
+    int m,n;cin>>m>>n;
     vector<int>v(m,1000);
     foru(0,m){
         forn2(n){
